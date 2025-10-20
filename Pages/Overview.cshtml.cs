@@ -1,14 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Project6ASP.NETCoreRazorPages.Pages
 {
     public class OverviewModel : PageModel
     {
-        public List<string> Title1 {  get; set; } = new List<string>();
-        public List<string> Year1 { get; set; } = new List<string>();
-        public List<string> Director1 { get; set; } = new List<string>();
+        public List<string> Titlelist {  get; set; } = new List<string>();
+        public List<string> Yearlist { get; set; } = new List<string>();
+        public List<string> Directorlist { get; set; } = new List<string>();
 
         public OverviewModel(string title, int year, string director)
         {
@@ -18,6 +20,8 @@ namespace Project6ASP.NETCoreRazorPages.Pages
 
             Director = director;
         }
+
+
 
         public string Title { get; set; }
         public int Year { get; set; }
@@ -34,23 +38,26 @@ namespace Project6ASP.NETCoreRazorPages.Pages
             //OverviewModel Ballerina = new OverviewModel("Ballerina", 2025, "Len Wiseman");
 
 
-            Title1.Add("John Wick");
-            Title1.Add("John Wick 2");
-            Title1.Add("John Wick 3");
-            Title1.Add("John Wick 4");
-            Title1.Add("Ballerina");
+            Titlelist.Add("John Wick");
+            Titlelist.Add("John Wick 2");
+            Titlelist.Add("John Wick 3");
+            Titlelist.Add("John Wick 4");
+            Titlelist.Add("Ballerina");
 
-            Year1.Add("2014");
-            Year1.Add("2017");
-            Year1.Add("2019");
-            Year1.Add("2023");
-            Year1.Add("2025");
+            Yearlist.Add("2014");
+            Yearlist.Add("2017");
+            Yearlist.Add("2019");
+            Yearlist.Add("2023");
+            Yearlist.Add("2025");
 
-            Director1.Add("Chad Stahelski");
-            Director1.Add("Chad Stahelski");
-            Director1.Add("Chad Stahelski");
-            Director1.Add("Chad Stahelski");
-            Director1.Add("Len Wiseman");
+            Directorlist.Add("Chad Stahelski");
+            Directorlist.Add("Chad Stahelski");
+            Directorlist.Add("Chad Stahelski");
+            Directorlist.Add("Chad Stahelski");
+            Directorlist.Add("Len Wiseman");
+
+
+            
         }
     }
 }

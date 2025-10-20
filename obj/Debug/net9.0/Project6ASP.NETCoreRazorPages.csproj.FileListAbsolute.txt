@@ -95,3 +95,4 @@ C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\n
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.pdb
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.genruntimeconfig.cache
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\ref\Project6ASP.NETCoreRazorPages.dll
+C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.sourcelink.json
