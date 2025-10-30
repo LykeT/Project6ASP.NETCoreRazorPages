@@ -1,8 +1,11 @@
+using Project6ASP.NETCoreRazorPages.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-//builder.Services.AddScoped();
+builder.Services.InitSeedData();
+builder.Services.AddScoped<IMovieService, MovieService>();
 
 var app = builder.Build();
 

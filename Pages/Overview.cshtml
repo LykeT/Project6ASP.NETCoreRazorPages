@@ -1,19 +1,26 @@
 ﻿@page
 @model Project6ASP.NETCoreRazorPages.Pages.OverviewModel
-@{
-	ViewData["Title"] = "Movie List";
+
+<h2>Movies</h2>
+
+<a href ="/MovieDetails">Movie Details</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Director</th>
+        </tr>
+    </thead>
+    <tbody>
+@for (var i = 0; i < Model.Movies.Count; i++)
+{
+    <tr>
+        <td><a href = "MovieDetails/">@Model.MovieList[i]</a></td>
+        <td>@Model.MovieList[i]</td>
+        <td>@Model.MovieList[i]</td>
+    </tr>
 }
-
-
-
-<div class="text-center">
-    <h1 class="display-4">Movie List</h1>
-    <p style="text-align: left">Title: @Model.Title</p>
-    <p style="text-align: left">Year: @Model.Year</p>
-    <p style="text-align: left">Director: @Model.Director</p>
-
-   
-</div>
-
-
-
+    </tbody>
+</table>

@@ -1,6 +1,26 @@
 ﻿@page
 @model Project6ASP.NETCoreRazorPages.Pages.MovieDetailsModel
-@{
-}
+
+<h2>Movie Details</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Producer</th>
+            <th>Box Office</th>
+            <th>Production Company</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (var i = 0; i < Model.ProducerList.Count; i++)
+        {
+            <tr>
+                <td>@Model.ProducerList[i]</td>
+                <td>@Model.BoxOfficeList[i]</td>
+                <td>@Model.ProductionCompanyList[i]</td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 
