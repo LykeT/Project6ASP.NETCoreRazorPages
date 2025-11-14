@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Project6ASP.NETCoreRazorPages.Models;
 using Project6ASP.NETCoreRazorPages.Services;
 using System.IO;
+using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Project6ASP.NETCoreRazorPages.Pages
@@ -12,23 +14,27 @@ namespace Project6ASP.NETCoreRazorPages.Pages
 
         public IMovieService _movieService;
 
-        
+        [BindProperty]
+        public MovieView MovieInput { get; set; } = new();
+
+
         public OverviewModel(IMovieService movieService)
         {
             _movieService = movieService;
         }
 
-        
+
         public List<Movie> MovieList { get; set; } = new();
 
         public void OnGet()
         {
             MovieList = _movieService.GetAllMovies();
 
+        }
 
-
-
-
+        public void OnPost(MovieView movie)
+        {
+            Console.WriteLine(string.Empty);
         }
     }
 }

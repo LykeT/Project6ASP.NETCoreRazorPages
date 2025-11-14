@@ -1,12 +1,8 @@
+C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.exe
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\appsettings.json
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.staticwebassets.runtime.json
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.staticwebassets.endpoints.json
-C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.exe
-C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.deps.json
-C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.runtimeconfig.json
-C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.dll
-C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.pdb
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.AssemblyInfoInputs.cache
@@ -15,6 +11,7 @@ C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\n
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.RazorAssemblyInfo.cache
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.RazorAssemblyInfo.cs
+C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.sourcelink.json
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -93,6 +90,9 @@ C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\n
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.dll
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\refint\Project6ASP.NETCoreRazorPages.dll
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.pdb
+C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.deps.json
+C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.runtimeconfig.json
+C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.dll
+C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\bin\Debug\net9.0\Project6ASP.NETCoreRazorPages.pdb
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.genruntimeconfig.cache
 C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\ref\Project6ASP.NETCoreRazorPages.dll
-C:\Users\lyket\source\repos\ZTM.DotNet\Project6ASP.NETCoreRazorPages\obj\Debug\net9.0\Project6ASP.NETCoreRazorPages.sourcelink.json

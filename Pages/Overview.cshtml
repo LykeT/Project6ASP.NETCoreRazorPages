@@ -14,7 +14,7 @@
         </tr>
     </thead>
     <tbody>
-@for (var i = 0; i < Model.Movies.Count; i++)
+@for (var i = 0; i < Model.MovieList.Count; i++)
 {
     <tr>
         <td><a href = "MovieDetails/">@Model.MovieList[i]</a></td>
@@ -24,3 +24,12 @@
 }
     </tbody>
 </table>
+
+<form method="post">
+    <div style="display: flex; justify-content: center">
+        <div style="display: grid; grid-gap: 5px; width; 300px">
+            <input asp-for="MovieInput.Title" class="form-control"/>
+            <button type="submit" class="btn btn-primary" style="width: 80px; margin-top: 5px">Add Movie</button>
+        </div>
+    </div>
+</form>
