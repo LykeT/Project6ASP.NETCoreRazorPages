@@ -9,6 +9,11 @@
             return _movielist;
         }
 
+        public void AddMovie(Movie newMovie)
+        {
+            _movielist.Add(newMovie);
+        }
+
 
 
         

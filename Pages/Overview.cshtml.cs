@@ -32,9 +32,11 @@ namespace Project6ASP.NETCoreRazorPages.Pages
 
         }
 
-        public void OnPost(MovieView movie)
+        public IActionResult OnPost(MovieView movieView)
         {
-            Console.WriteLine(string.Empty);
+            Movie newMovie = movieView.ToMovie();
+            _movieService.AddMovie(newMovie);
+            return RedirectToPage();//rerun the OnGet
         }
     }
 }
