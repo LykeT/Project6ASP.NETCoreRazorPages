@@ -15,7 +15,7 @@ namespace Project6ASP.NETCoreRazorPages.Pages
         public IMovieService _movieService;
 
         [BindProperty]
-        public MovieView MovieInput { get; set; } = new();
+        public MovieView MovieInput { get; set; } = new();//For the form
 
 
         public OverviewModel(IMovieService movieService)
@@ -24,17 +24,27 @@ namespace Project6ASP.NETCoreRazorPages.Pages
         }
 
 
-        public List<Movie> MovieList { get; set; } = new();
+        public List<Movie> MovieList { get; set; } = new();// = new() IS setting a default value!!
+
+        
+        
 
         public void OnGet()
         {
             MovieList = _movieService.GetAllMovies();
+            
+            
 
         }
 
-        public IActionResult OnPost(MovieView movieView)
+        public IActionResult OnPost()
         {
-            Movie newMovie = movieView.ToMovie();
+            if (!ModelState.IsValid)
+            {
+                // Return the same page to show validation messages
+                return Page();
+            }
+            Movie newMovie = MovieInput.ToMovie();
             _movieService.AddMovie(newMovie);
             return RedirectToPage();//rerun the OnGet
         }

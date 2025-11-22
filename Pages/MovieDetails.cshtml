@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{Id:Guid}"
 @model Project6ASP.NETCoreRazorPages.Pages.MovieDetailsModel
 
 <h2>Movie Details</h2>
@@ -6,20 +6,19 @@
 <table class="table">
     <thead>
         <tr>
-            <th>Producer</th>
-            <th>Box Office</th>
-            <th>Production Company</th>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Director</th>
         </tr>
     </thead>
+    <a href="/Overview">Back to Overview</a>
     <tbody>
-       @for (var i = 0; i < Model.MovieList.Count; i++)
-        {
             <tr>
-                <td>@Model.MovieList[i]</td>
-                <td>@Model.MovieList[i]</td>
-                <td>@Model.MovieList[i]</td>
+                <td>@Model.ExistingMovie.Title</td>
+                <td>@Model.ExistingMovie.Year</td>
+                <td>@Model.ExistingMovie.Director</td>
             </tr>
-        }
+        
     </tbody>
 </table>
 

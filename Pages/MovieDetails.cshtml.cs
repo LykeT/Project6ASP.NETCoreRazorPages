@@ -9,21 +9,19 @@ namespace Project6ASP.NETCoreRazorPages.Pages
 
         public IMovieService _movieService;
 
-        public List<Movie> Movies { get; set; }
+        public Movie ExistingMovie { get; set; } 
 
         public MovieDetailsModel(IMovieService movieService)
         {
             _movieService = movieService;
         }
 
-        public List<Movie> MovieList { get; set; } = new();
 
-        public void OnGet()
+        public IActionResult OnGet(Guid Id)
         {
-            MovieList.AddRange(MovieService._movielist);
-
-            Movies = _movieService.GetAllMovies();
+            ExistingMovie = _movieService.GetById(Id);
+            return Page();
         }
-            
+
     }
 }

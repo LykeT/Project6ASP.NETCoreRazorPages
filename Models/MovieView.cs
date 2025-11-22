@@ -1,4 +1,5 @@
 ﻿using Project6ASP.NETCoreRazorPages.Services;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 
 namespace Project6ASP.NETCoreRazorPages.Models
@@ -6,10 +7,11 @@ namespace Project6ASP.NETCoreRazorPages.Models
     public class MovieView
     {
 
-
+        [Required]
         public string Title { get; set; } = string.Empty;
         public int Year { get; set; }
         public string Director { get; set; } = string.Empty;
+
 
         
 

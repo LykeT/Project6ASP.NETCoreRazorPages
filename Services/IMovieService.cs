@@ -8,6 +8,7 @@ namespace Project6ASP.NETCoreRazorPages.Services
         List<Movie> GetAllMovies();
         void AddMovie(Movie newMovie);
 
+        Movie GetById(Guid Id);
 
 
 

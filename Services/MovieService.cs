@@ -1,4 +1,6 @@
-﻿namespace Project6ASP.NETCoreRazorPages.Services
+﻿using System.Text.RegularExpressions;
+
+namespace Project6ASP.NETCoreRazorPages.Services
 {
     public class MovieService : IMovieService
     {
@@ -14,6 +16,10 @@
             _movielist.Add(newMovie);
         }
 
+        public Movie GetById(Guid Id)
+        {
+            return _movielist.Find(m => m.ID == Id);
+        }
 
 
         

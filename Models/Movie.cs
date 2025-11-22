@@ -9,12 +9,17 @@ namespace Project6ASP.NETCoreRazorPages.Services
             Title = title;
             Year = year;
             Director = director;
-            
+           
         }
 
+        public Guid ID { get; } = Guid.NewGuid();
         public string Title { get; set; }
         public int Year { get; set; }
         public string Director { get; set; }
+
+        
+
+        
 
         
 

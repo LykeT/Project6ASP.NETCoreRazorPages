@@ -32,6 +32,15 @@
             <input asp-for="MovieInput.Year" class="form-control"/>
             <input asp-for="MovieInput.Director" class="form-control" />
             <button type="submit" class="btn btn-primary" style="width: 80px; margin-top: 5px">Add Movie</button>
+            <div class="form-group">
+
+                <span asp-validation-for="MovieInput.Title" class="text-danger"></span>
+            </div>
         </div>
     </div>
+    
 </form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
