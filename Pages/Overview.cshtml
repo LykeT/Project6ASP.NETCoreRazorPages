@@ -3,8 +3,6 @@
 
 <h2>Movies</h2>
 
-<a href ="/MovieDetails">Movie Details</a>
-
 <table class="table">
     <thead>
         <tr>
@@ -17,7 +15,7 @@
 @for (var i = 0; i < Model.MovieList.Count; i++)
 {
     <tr>
-        <td><a href = "MovieDetails/">@Model.MovieList[i].Title</a></td>
+        <td><a href = "/MovieDetails/@Model.MovieList[i].ID">@Model.MovieList[i].Title</a></td>
         <td>@Model.MovieList[i].Year</td>
         <td>@Model.MovieList[i].Director</td>
     </tr>
